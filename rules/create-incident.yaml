@@ -1,0 +1,15 @@
+---
+name: "Create-incident"
+description: "Create incident on service now."
+enabled: false
+
+trigger:
+  type: "core.st2.IntervalTimer"
+  parameters:
+    delta: 5
+    unit: minutes
+
+action:
+  ref: "service.create-incident"
+  parameters:
+    instance_name: "instance_name"
