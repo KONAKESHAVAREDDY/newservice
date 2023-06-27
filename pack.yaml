@@ -1,0 +1,13 @@
+---
+ref: service
+name: service
+description: demo integrtaion pack
+keywords:
+  - Servicenow
+  - George trump
+  - Cheguvera
+version: 0.1.0
+python_versions:
+  - "3"
+author: Keshava
+email: kona@keshava.com
