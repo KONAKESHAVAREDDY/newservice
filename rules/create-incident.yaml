@@ -11,5 +11,3 @@ trigger:
 
 action:
   ref: "service.create-incident"
-  parameters:
-    instance_name: "instance_name"
