@@ -1,6 +1,6 @@
 ---
-ref: service
-name: service
+ref: newservice
+name: newservice
 description: demo integrtaion pack
 keywords:
   - Servicenow
