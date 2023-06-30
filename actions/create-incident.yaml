@@ -5,3 +5,5 @@ description: Create incident
 runner_type: python-script
 entry_point: create-incident.py
 enabled: true
+parameters:
+  payload: {}
