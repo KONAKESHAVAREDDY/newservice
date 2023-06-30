@@ -1,9 +1,12 @@
 ---
-name: create-incident
-pack: service
-description: Create incident
-runner_type: python-script
-entry_point: create-incident.py
+name: "create_incident"
+pack: newpack
+runner_type: "python-script"
+description: "Create a incident in  ServiceNow Table"
 enabled: true
+entry_point: "create_incident.py"
 parameters:
-  payload: {}
+  payload:
+    type: "object"
+    description: "Data to upload to ServiceNow"
+    required: true
