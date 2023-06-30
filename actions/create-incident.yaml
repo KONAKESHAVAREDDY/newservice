@@ -4,7 +4,7 @@ pack: newpack
 runner_type: "python-script"
 description: "Create a incident in  ServiceNow Table"
 enabled: true
-entry_point: "create_incident.py"
+entry_point: "create-incident.py"
 parameters:
   payload:
     type: "object"
