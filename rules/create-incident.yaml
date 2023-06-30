@@ -1,13 +1,13 @@
 ---
-name: "Create-incident"
+name: "Create-incident_webhook"
 description: "Create incident on service now."
 enabled: false
 
 trigger:
-  type: "core.st2.IntervalTimer"
+  type: "core.st2.webhook"
   parameters:
-    delta: 5
-    unit: minutes
+    url: "create_incident_webhook"
 
 action:
   ref: "service.create-incident"
+criteria: {}
