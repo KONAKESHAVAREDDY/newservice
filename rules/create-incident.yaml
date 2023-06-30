@@ -9,5 +9,5 @@ trigger:
     url: "create_incident_webhook"
 
 action:
-  ref: "service.create-incident"
+  ref: "newservice.create-incident"
 criteria: {}
