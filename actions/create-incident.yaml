@@ -1,6 +1,6 @@
 ---
 name: "create_incident"
-pack: newpack
+pack: newservice
 runner_type: "python-script"
 description: "Create a incident in  ServiceNow Table"
 enabled: true
