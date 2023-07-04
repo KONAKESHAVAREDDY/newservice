@@ -5,8 +5,3 @@ runner_type: "python-script"
 description: "Create a incident in  ServiceNow Table"
 enabled: true
 entry_point: "create-incident.py"
-parameters:
-  payload:
-    type: "object"
-    description: "Data to upload to ServiceNow"
-    required: true
