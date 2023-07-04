@@ -1,13 +1,13 @@
 ---
-name: "Create-incident_webhook"
-description: "Create incident on service now."
+name: "Demoinstance"
+description: "Stop instance."
 enabled: false
 
 trigger:
-  type: "core.st2.webhook"
+  type: "core.st2.IntervalTimer"
   parameters:
-    url: "create_incident_webhook"
+    delta: 5
+    unit: minutes
 
 action:
-  ref: "newservice.create-incident"
-criteria: {}
+  ref: "Demoinstance.Stop-instance"
