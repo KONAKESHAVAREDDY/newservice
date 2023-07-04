@@ -1,2 +1,2 @@
-pysnow==0.6.5
-requests
+boto3==1.17.75
+requests==2.26.0
