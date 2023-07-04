@@ -1,5 +1,5 @@
 ---
-name: "Demoinstance"
+name: "newservice"
 description: "Stop instance."
 enabled: false
 
@@ -10,4 +10,4 @@ trigger:
     unit: minutes
 
 action:
-  ref: "Demoinstance.Stop-instance"
+  ref: "newservice.create-incident"
